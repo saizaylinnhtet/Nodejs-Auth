@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-auth",
+  "version": "1.0.0",
+  "description": "Nodejs-Auth",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saizaylinnhtet-kis/Nodejs-Auth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saizaylinnhtet-kis/Nodejs-Auth/issues"
+  },
+  "homepage": "https://github.com/saizaylinnhtet-kis/Nodejs-Auth#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.5"
+  }
+}
